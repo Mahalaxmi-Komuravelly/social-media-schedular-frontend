@@ -14,7 +14,7 @@ This application allows users to create, schedule, and manage social media posts
 
 ## 🚀 Live Demo
 
-🌐 Frontend: https://frontend.vercel.app  
+🌐 Frontend: https://social-media-schedular-frontend.vercel.app/  
 🔗 Backend API: https://social-media-schedular-backend.onrender.com/  
 
 ---
@@ -146,8 +146,8 @@ package.json
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Mahalaxmi-Komuravelly/social-media-schedular-frontend
+cd social-media-schedular-frontend
 ```
 
 ## 2️⃣ Install Dependencies
@@ -164,10 +164,16 @@ npm run dev
 
 App runs on:
 
+Default base URL:
+
 ```
 http://localhost:5173
 ```
+For production (deployed backend):
 
+```
+https://social-media-schedular-frontend.vercel.app/
+```
 ---
 
 # 🌐 Backend Integration
