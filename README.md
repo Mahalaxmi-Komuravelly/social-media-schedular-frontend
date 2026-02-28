@@ -19,7 +19,7 @@ This application allows users to create, schedule, and manage social media posts
 
 ## 🚀 Live Demo
 
-🌐 Frontend: https://social-media-schedular-frontend.vercel.app/  
+🌐 Frontend: https://social-media-schedular-netlify.netlify.app/  
 🔗 Backend API: https://social-media-schedular-backend.onrender.com/  
 
 ---
@@ -174,10 +174,10 @@ Default base URL:
 ```
 http://localhost:5173
 ```
-For production (deployed backend):
+For production (deployed frontend):
 
 ```
-https://social-media-schedular-frontend.vercel.app/
+https://social-media-schedular-netlify.netlify.app/
 ```
 ---
 
@@ -216,7 +216,7 @@ Create a `.env` file in the root:
 VITE_API_URL=http://localhost:8080
 ```
 
-## Production (Vercel)
+## Production (Netlify)
 VITE_API_URL=https://social-media-schedular-backend.onrender.com/
 
 Update `api.js`:
@@ -224,10 +224,6 @@ Update `api.js`:
 ```js
 baseURL: import.meta.env.VITE_API_URL
 ```
-
-For production (Vercel), configure the same variable in:
-
-Vercel → Project Settings → Environment Variables
 
 ---
 
@@ -247,20 +243,13 @@ npm run preview
 
 # 🚀 Deployment
 
-You can deploy using:
+You can deploy this frontend on Netlify:
 
-- Vercel
-- Netlify
-- Render
-- AWS
-- Firebase Hosting
-
-Example (Vercel):
-
-```bash
-npm install -g vercel
-vercel
-```
+1. Connect your GitHub repository to Netlify.
+2. Set the build command: `npm run build`
+3. Set the publish directory: `dist` (or `build` depending on your setup)
+4. Add environment variable: `VITE_API_URL=https://social-media-schedular-backend.onrender.com/`
+5. Trigger deploy.
 
 ---
 
