@@ -12,6 +12,11 @@ This application allows users to create, schedule, and manage social media posts
 
 ---
 
+## 🎥 Video Walkthrough
+[Watch the demo here](https://drive.google.com/file/d/1DiL1TYVqm7gNHv52xMniDgdddK2mvywT/view?usp=drive_link)
+
+---
+
 ## 🚀 Live Demo
 
 🌐 Frontend: https://social-media-schedular-frontend.vercel.app/  
