@@ -166,7 +166,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <h2 className="text-lg font-semibold text-slate-700 mb-4">
+      <h2 className="text-xl font-semibold text-slate-700 mb-4">
         Campaign Summary
       </h2>
 
